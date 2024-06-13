@@ -1,0 +1,61 @@
+[
+
+      {
+        "id": 1,
+        "name": "Leo",
+        "surname": "Messi",
+        "seriano": "AZ123",
+        "birthdate": "12-04-2003",
+        "score": "100",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwlyajAHhFz6Olpu2evxPZPvnP6v4d4EKwg&s"
+      },
+      {
+          "id": 2,
+          "name": "Neymar",
+          "surname": "Junior",
+          "seriano": "AZ234",
+          "birthdate": "30-04-2003",
+          "score": "91",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqgucNaWMtVt_NB5N3XSZF7UPFnz8TmtSuvQ&s"
+        },
+        {
+          "id": 3,
+          "name": "Luis",
+          "surname": "Suarez",
+          "seriano": "AZ345",
+          "birthdate": "11-12-2004",
+          "score": "48",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Luis_Su%C3%A1rez_2018.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Xavi",
+          "surname": "Hernandez",
+          "seriano": "AZ456",
+          "birthdate": "13-02-2000",
+          "score": "94",
+          "imageUrl": "https://c4.wallpaperflare.com/wallpaper/980/75/804/sports-barcelona-fc-barcelona-xavi-hernandez-1920x1080-sports-football-hd-art-wallpaper-preview.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Gerrard",
+          "surname": "Pique",
+          "seriano": "AZ567",
+          "birthdate": "15-04-1999",
+          "score": "77",
+          "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/18944-1667548226.jpg?lm=1"
+        },
+        {
+          "id": 6,
+          "name": "Andres",
+          "surname": "Iniesta",
+          "seriano": "AZ678",
+          "birthdate": "12-01-1998",
+          "score": "97",
+          "imageUrl": "https://media.gettyimages.com/id/960572556/photo/barcelona-v-real-sociedad-la-liga.jpg?s=594x594&w=gi&k=20&c=TbfcfLilkRlubHzJlIOr0TpDLSUCItXDi5nAGlEIF9k="
+        }
+
+    
+    
+  ]
+  

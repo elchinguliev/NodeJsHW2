@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Detail</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Detail</h1>
+    </header>
+    <main id="student-detail"></main>
+
+     <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const studentId = urlParams.get('id');
+
+        fetch('/students')
+            .then(response => response.json())
+            .then(students => {
+                const student = students.find(s => s.id == studentId);
+                if (student) {
+                    const studentDetail = document.getElementById('student-detail');
+
+                    const studentContent = `
+                        <img src="${student.imageUrl}" alt="${student.name} ${student.surname}" class="student-img-detail">
+                        <div class="student-info-detail">
+                            <h2>${student.name} ${student.surname}</h2>
+                            <p><strong>Serial No:</strong> ${student.seriano}</p>
+                            <p><strong>Birthdate:</strong> ${student.birthdate}</p>
+                            <p><strong>Score:</strong> ${student.score}</p>
+                        </div>
+                    `;
+
+                    studentDetail.innerHTML = studentContent;
+                } else {
+                    studentDetail.innerHTML = '<p>Student not found.</p>';
+                }
+            });
+    </script>
+</body> 
+</html>
